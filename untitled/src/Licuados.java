@@ -11,4 +11,7 @@ public class Licuados {
     public void setPrecio(double precio){
         this.precio=precio;
     }
+    public void setSabor(String licuado){
+        this.licuado=licuado;
+    }
 }
