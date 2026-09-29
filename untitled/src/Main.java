@@ -4,7 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Licuados lucha = new Licuados();
         Licuados macaco = new Licuados();
-        
+        Licuados albertano = lucha;
+        lucha.setPrecio(30.5);
+        System.out.println("Precio del licuado de doña lucha: " + lucha.getPrecio());
+        System.out.println("Precio del licuado de doña albertano: " + albertano.getPrecio());
+
 
 
     }
